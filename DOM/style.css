@@ -26,3 +26,35 @@ body {
 .green {
     background-color: rgb(9, 194, 9);
 }
+
+.boxDOM {
+    width: 100px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background-color:darkslateblue;
+    height: 70px;
+    transition: background-color .2s;
+}
+
+.boxDOM:hover {
+    background-color:slateblue;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    display: inline-block;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: darkgray;
+    border-radius: 5px;
+    color: linen;
+    font-weight: bold;
+    transition: background-color .2s
+
+}
+button:hover {
+    background-color: slateblue;
+}
