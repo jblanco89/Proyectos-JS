@@ -34,7 +34,7 @@ body {
     padding: 5px;
     background-color:darkslateblue;
     height: 70px;
-    transition: background-color .2s;
+    transition: background-color .5s;
 }
 
 .boxDOM:hover {

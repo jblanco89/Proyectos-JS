@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+background-color: #f2f2f2;
+font-family: 'Work Sans 27px', serif;
+font-size: 16px;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.form h1 {
+    background-color: white;
+    display: block;
+    width: 100%;
+    font-family: 'Work Sans', serif;
+    font-weight: bolder;
+    color: #424242;
+    font-size: 25px;
+    text-align: left;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 10px 10px 0 0;
+}
+
+.form h2 {
+    background-color: white;
+    display: block;
+    width: 100%;
+    font-family: 'Work Sans', serif;
+    font-weight:bold;
+    font-size: 22px;
+    color: #424242;
+    text-align: center;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-family: "Work Sans", serif;
+    font-size: 18px;
+}
+.form input[type="text"]:focus,
+.form input[type="email"]:focus {
+    border-bottom: 2px solid #246eb9;
+
+}
+.form input[type="radio"]{
+    display: none;    
+}
+.form .container-sex {
+    font-family: 'Work Sans', serif;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+
+.form .container-sex .male {
+    border-radius: 3px 0 0 3px;
+}
+
+.form .container-sex .female {
+    border-radius: 3px 0 0 3px;
+}
+
+.form .label-radio {
+    background-color: rgba(249, 168, 63, .4);
+    color: #ffff;
+    padding: 10px;
+    text-align: center;
+    width: 49.5%;
+}
+.form input[type="radio"]:checked + .label-radio {
+    background-color: #f9a03f;
+}
+
+.form .errors {
+    font-family: 'Work Sans',serif;
+    display: none;
+    width: 100%;
+    margin: 0px;
+    padding: 15px 10px;
+    padding-left: 40px;
+    margin-top: 0px;
+    border-radius: 3px;
+    background-color:#ce1818;
+    color: #fff;
+    
+}
+.form .success {
+    font-family: 'Work Sans',serif;
+    display: none;
+    width: 100%;
+    margin: 0px;
+    padding: 15px 10px;
+    padding-left: 40px;
+    margin-top: 0px;
+    border-radius: 3px;
+    background-color:#22dd86;
+    color: #fff;
+    
+}
+.form .container-inputs{
+    padding: 20px;
+    background-color: white;
+}
+.form .container-sex {
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 0;
+}
+.form .container-terms-conditions {
+    margin-top: 0px;
+    text-align: center;
+    color: #424242;
+    padding: 20px;
+    background-color: white;
+}
+
+.form .container-terms-conditions label {
+    margin-left: 10px;
+    font-family: 'Work Sans', serif;
+    font-weight: bolder;
+}
+.form .btn {
+    width: 100%;
+    text-align: center;
+    background-color: #246eb9;
+    color: #fff;
+    border: none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    font-family: 'Work Sans', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.4s;
+
+}
+.form .btn:hover {
+    background-color: #4357ad;
+
+}

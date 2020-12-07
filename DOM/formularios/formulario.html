@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+    <title>UserForm CSS & JS</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post" id="form" class="form">
+            <h1>Contact</h1>
+            <h2>user form</h2>
+            <div class="container-inputs">
+                <input type="text" name="username" id="username" class="username" placeholder="Name and Surname">
+                <input type="email" name="email" id="email" class="email" placeholder="email address">
+            </div>
+            <div class="container-sex" id="">
+                <input type="radio" name="sex" id="male" value="male">
+                <label for="male" class="label-radio male">Male</label>
+                <input type="radio" name="sex" id="female" value="female">
+                <label for="female" class="label-radio female">Female</label>
+            </div>
+            <div class="container-terms-conditions">
+                <input type="checkbox" name="terms" id="terms" value="Terms & Conditions">
+                <label for="terms">Accept Terms and Conditions</label>
+            </div>
+            <div class="errors" id="errors">
+            </div>
+            <div class="success" id="success">
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit" class="btn" id="btn">
+            </div>
+        </form>
+    </div>
+<script src="form.js"></script>
+</body>
+</html>
