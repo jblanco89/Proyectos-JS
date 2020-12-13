@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8edeb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body .controls {
+    padding-bottom: 15px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px grey;
+    width: 220px;
+    margin-left: 880px;
+    display: block;
+    position: fixed;
+    /*bottom: 40px;*/
+    z-index: 99;
+}
+
+body .controls, h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.controls .btn .fas {
+    padding-right: 8%;
+}
+
+section {
+    margin-top: 45px;
+    width: 800px;
+    margin-left:50px;
+    background-color: white;
+    padding-bottom: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+section .text-btn {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    background-color:#22333b;
+    color:#fff;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 600px;
+    display: block;
+    transition: 0.4s;
+    text-align: center;
+}
+
+section h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section .lorem {
+    display: none;
+    margin-left: 15px;
+    text-align: justify;
+    font-size: 18px;
+    padding-top: 20px;
+    
+}
+section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+}
+section .container-form .form {
+    font-size:18px;
+    display: block;
+    padding:35px;
+}
+
+section .container-form .form .submit-btn {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    background-color:#22333b;
+    color:#fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 15px;
+    float: right;
+    cursor: pointer;
+    display: inline;
+    transition: 0.4s;
+}
+
+section .container-form h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section .brokenImg {
+    margin-left: 20px;
+
+}
+
+section .broken-container {
+    display:inline-block;
+    padding: 15px;
+    align-items: center;
+}
+
+section .broken-btn {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    background-color:#22333b;
+    color:#fff;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.4s;
+    text-align: center;
+    position: relative;
+    margin-left: 210px;
+}
+section .blink .blink-btn{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    background-color:#22333b;
+    color:#fff;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    transition: 0.4s;
+    text-align: center;
+}
+
+section .blink {
+    padding:20px;
+    display: flex;
+}
+
+section .blink span {
+    display:inherit;
+    padding-left: 400px;
+}
+
+section .container-table {
+    display: flex;
+}
+
+section .table {
+    border: #ffb5a7 solid;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 550px;
+    text-align: center;
+}
+
+section .table td {
+    border: #f8edeb solid;
+    padding: 10px;
+
+}
+
+section tr.striped {
+    background-color: #ffb5a7; 
+}
+
+section .container-table span {
+    padding-right: 0;
+}
+
+section .container-table .odd-btn,
+section .container-table .even-btn{
+    margin: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    background-color:#22333b;
+    color:#fff;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+    transition: 0.4s;
+    text-align: center;
+}
+
+section .text-tarea p,
+section .text-tarea .leftChars {
+    text-align: justify;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+section .text-tarea textarea {
+    margin-left: 10px;
+    padding:10px;
+}
+
+.btn {
+    background-color: #22333b;
+    color: #ffff;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 8px;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    text-align: justify;
+    box-shadow: 5px 5px 5px grey;
+    padding-left: 5%;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 5px;
+    transition: 0.1s;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #ffb5a7;
+    color: #22333b;
+}
+
+section .container-form .form .submit-btn:hover {
+    background-color: #ffb5a7;
+    color: #22333b;
+}
+
+section .broken-btn:hover {
+    background-color: #ffb5a7;
+    color: #22333b;
+}
+section .blink .blink-btn:hover {
+    background-color: #ffb5a7;
+    color: #22333b;
+}
+
+section .container-table .odd-btn:hover,
+section .container-table .even-btn:hover,
+section .text-btn:hover {
+    background-color: #ffb5a7;
+    color: #22333b;
+}
