@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD OOP Product App</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/solar/bootstrap.min.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand navbar-dark bg-primary">
+        <a href="/" class="navbar-brand">
+        Product App Vanilla JS and OOP
+        </a>
+    </nav>
+    
+    <div class="container">
+        <div class="row pt-5" id="app">
+            <div class="col-md-4">
+                <div class="card card border-primary">
+                    <div class="card-header">
+                        <h3>Add new product</h3>
+
+                    </div>
+                    <form id="product-form" class="card-body">
+                        <div class="form-group pd-3">
+                            <input type="text" id="name" placeholder="add product name" class="form-control">
+                            <input type="number" id="price" step="0.01" placeholder="product price" class="form-control">
+                            <input type="number" id="year" value="2021" min="1990" max="2021" placeholder="product year" class="form-control">
+                        </div>
+                        <input type="submit" value="Save" class="btn btn-primary btn-block">
+                    </form>
+                </div>
+
+            </div>
+            <div class="col-md-8">
+                <div id="product-list"></div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
